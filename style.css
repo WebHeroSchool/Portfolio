@@ -1,0 +1,28 @@
+*,
+*::before {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.header {
+	background-image: url(images/header-img.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: right;
+}
+
+.menu {
+	padding-top: 70px;
+	padding: 70px;
+}
+
+.menu__item {
+	text-decoration: none;
+	color: #fff;
+}
