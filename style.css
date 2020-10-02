@@ -19,10 +19,58 @@
 
 .menu {
 	padding-top: 70px;
-	padding: 70px;
+	margin-right: 130px;
 }
 
 .menu__item {
 	text-decoration: none;
 	color: #fff;
+	margin-right: 60px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+  }
+
+.header__title {
+	margin-right: 130px;
+	margin-top: 131px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 47px;
+	color: #e1e6e9;
+}
+
+.header__text {
+	margin-top: 11px;
+	margin-right: 130px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: right;
+	color: #e1e6e9;
+	text-align: right;
+}
+
+.header__btn {
+	display: inline-block;
+	margin-top: 69px;
+	margin-right: 130px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 23px;
+	color: #fff;
+	background: #e0036e;
+	padding: 16px 66px;
 }
