@@ -36,6 +36,10 @@
     margin-right: 0;
   }
 
+.burger {
+	display: none;
+}
+
 .header__title {
 	margin-right: 130px;
 	margin-top: 131px;
@@ -72,4 +76,54 @@
 	color: #fff;
 	background: #e0036e;
 	padding: 16px 66px;
+}
+
+.sale__title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	color: #585858;
+	margin-top: 55px;
+}
+
+.sale__text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	color: #263b83;
+	margin-top: 40px;
+}
+
+.sale__btn {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 23px;
+	margin: 33px 620px 0 850px;
+	color: #000;
+	background: #ffda45;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+	padding: 16px 66px;
+}
+
+.sale__text-item {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	color: #585858;
+	margin-top: 34px;
+}
+
+.sale__text-item_active:hover {
+	text-decoration: underline #ffda45; 
 }
