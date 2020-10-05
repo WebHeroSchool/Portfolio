@@ -217,15 +217,28 @@
 }
 
 .footer__place {
+	margin-top: 48px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 18px;
 	line-height: 21px;
-	text-align: right;
-	margin-top: 48px;
-	margin-left: 157px; 
 	color: #e1e6e9;
+	display: inline-block;
+  padding-left: 150px;
+  text-decoration: none;
+}
+
+.footer__place::before {
+	background-image: url(../images/footer-place-icon.svg);
+}
+
+.footer__place::before {
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 0;
 }
 
 .footer__number {
