@@ -228,6 +228,30 @@
 	color: #e1e6e9;
 }
 
-.footer__img {
-	background-image: url(images/footer-place.svg);
+.footer__number {
+	margin-top: 48px;
+	margin-right: -720px;
+}
+
+.footer__telephone {
+	display: block;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 21px;
+	color: #E1E6E9;
+}
+
+.footer__contacts {
+	margin-top: 50px;
+	margin-right: -204px;
+}
+
+.footer__telephone-icon {
+	padding-right: 13px;
+}
+
+.footer__telegram-icon {
+	padding-right: 354px;
 }
