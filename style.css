@@ -215,3 +215,19 @@
 	top: 2516px;
 	background: #0e1e71;
 }
+
+.footer__place {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: right;
+	margin-top: 48px;
+	margin-left: 157px; 
+	color: #e1e6e9;
+}
+
+.footer__img {
+	background-image: url(images/footer-place.svg);
+}
