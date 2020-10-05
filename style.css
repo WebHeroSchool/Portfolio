@@ -227,6 +227,7 @@
 	display: inline-block;
   padding-left: 150px;
   text-decoration: none;
+  position: relative;
 }
 
 .footer__place::before {
