@@ -1,11 +1,233 @@
+body {
+	margin: 0;
+}
+
 .header {
 	background-image: url(images/background.jpg);
-	height: 100vh;
+	height: 840px;
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: cover;
+	display: flex;
+	justify-content: space-between;
 }
 
-.header__logo-link {
-	margin-top: 60px;
+.header__logo {
+	padding-top: 60px;
+	padding-left: 130px;
+}
+
+.header__title {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 55px;
+	color: #fff;
+	padding-left: 130px;
+	padding-top: 94px;
+}
+
+.header__subtitle {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 31px;
+	line-height: 37px;
+	color: #ffcc33;
+	padding-left: 130px;
+	padding-top: 5px;
+}
+
+.header__text {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 23px;
+	color: #fff;
+	padding-left: 130px;
+	margin-top: -20px;
+}
+
+.header__button {
+	margin-top: 100px;
+}
+
+.header__img {
+	width: 564px;
+	height: 464px;
+	padding-top: 184px;
+	padding-right: 129px;
+}
+
+.header__button {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 24px;
+	color: #3030c1;
+	background: #ffcc33;
+	padding: 15px 41px;
+	margin-left: 130px;
+	margin-top: 9px;
+}
+
+.main__title {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 49px;
+	color: #3a3a3a;
+	text-align: center;
+	padding-top: 22px;
+}
+
+.main__plan {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 126px 3px 126px;
+}
+
+
+
+.main__plan1{
+	background-image: url(images/plan-bg.jpg);
+	box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.25);
+	width: 380px;
+	height: 401px;
+	cursor: pointer;
+}
+
+.main__plan1-img1 {
+	width: 115px;
+	height: 115px;
+	padding-left: 122px;
+	padding-top: 47px;
+}
+
+.main__plan1-title {
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	color: #3030c1;
+	margin-top: 19px;
+}
+
+.main__plan1-subtitle {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	color: #3a3a3a;
+}
+.main__plan2 {
+	background-image: url(images/plan-bg.jpg);
+	box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.25);
+	width: 380px;
+	height: 401px;
+	cursor: pointer;
+}
+
+.main__plan2-img2 {
+	width: 115px;
+	height: 115px;
+	padding-left: 122px;
+	padding-top: 47px;
+}
+
+.main__plan2-title {
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	color: #3030c1;
+}
+
+.main__plan2-subtitle {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	color: #3a3a3a;
+}
+
+.main__plan3 {
+	background-image: url(images/plan-bg.jpg);
+	box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.25);
+	width: 380px;
+	height: 401px;
+	cursor: pointer;
+}
+
+.main__plan3-img3 {
+	width: 115px;
+	height: 115px;
+	padding-left: 122px;
+	padding-top: 47px;
+}
+
+.main__plan3-title {
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	color: #3030c1;
+}
+
+.main__plan3-subtitle {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	color: #3a3a3a;
+}
+
+.main__title1-link {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 49px;
+	color: #3a3a3a;
+	text-align: center;
+	padding-top: 55px;
+}
+
+.main__text {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	color: #3a3a3a;
+	padding-top: 30px;
+}
+
+.forms__title {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 49px;
+	color: #3a3a3a;
+	padding-top: 128px;
+	text-align: center;
+}
+
+.forms__contact-input-forms__contact-name,
+.forms__contact-input-forms__contact-email {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 23px;
+	color: #878787;
 }
